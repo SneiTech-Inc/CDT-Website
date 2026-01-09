@@ -102,7 +102,7 @@ export default function ContactPage() {
                     <Mail className="w-10 h-10 text-primary" />
                   </div>
                   <h3 className="text-xl font-bold text-foreground mb-2">Email</h3>
-                  <p className="text-muted-foreground">info@christdominiontmple.org</p>
+                  <p className="text-muted-foreground">info@christdominiontemple.org</p>
                 </Card>
               </motion.div>
             </div>

@@ -67,9 +67,9 @@ export default function Home() {
             </motion.h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               {[
-                { day: "Sunday", time: "8:00 AM & 10:30 AM", service: "Main Worship Service" },
-                { day: "Wednesday", time: "6:30 PM", service: "Prayer & Bible Study" },
-                { day: "Friday", time: "7:00 PM", service: "Youth Gathering" },
+                { day: "Sunday", time: "8:30 AM - 11:00 AM", service: "Main Worship Service" },
+                { day: "Tuesday", time: "7:00 PM - 8:30 PM", service: "Bible Study" },
+                { day: "Thursday", time: "7:00 PM - 8:00 PM", service: "Prayer Meeting" },
               ].map((schedule, idx) => (
                 <motion.div key={idx} variants={itemVariants}>
                   <Card className="p-6 border-2 border-border hover:border-primary transition-colors h-full">
@@ -111,7 +111,7 @@ export default function Home() {
               ))}
             </div>
             <div className="mt-8 text-center">
-              <Link href="/departments/womens-ministry">
+              <Link href="/departments">
                 <Button variant="outline" className="gap-2 bg-transparent">
                   Explore All Departments <ArrowRight className="w-4 h-4" />
                 </Button>
@@ -131,9 +131,9 @@ export default function Home() {
             <div className="space-y-4 mb-8">
               {[
                 {
-                  date: "Jan 15, 2026",
-                  title: "Youth Empowerment Summit",
-                  desc: "A day of inspiration and growth for our youth",
+                  date: "Jan 05, 2026 to Jan 18, 2026",
+                  title: "Fasting & Prayer Week",
+                  desc: "A week dedicated to spiritual renewal and seeking God's face",
                 },
                 {
                   date: "Jan 22, 2026",

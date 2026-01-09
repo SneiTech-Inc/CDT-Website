@@ -133,7 +133,7 @@ export default function Footer() {
                 </li>
                 <li className="flex gap-2 items-center">
                   <Mail className="w-4 h-4" />
-                  <span>info@christdominiontmple.org</span>
+                  <span>info@christdominiontemple.org</span>
                 </li>
               </ul>
             </motion.div>
@@ -155,7 +155,7 @@ export default function Footer() {
                 rel="noopener noreferrer"
                 className="font-semibold hover:opacity-100 transition-opacity"
               >
-                SneiTech
+                SneiTech Inc
               </a>
             </p>
           </motion.div>
