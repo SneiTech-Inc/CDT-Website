@@ -25,9 +25,9 @@ export default function HeroVideo() {
         loop
         playsInline
         className="absolute inset-0 w-full h-full object-cover opacity-60"
-        poster="/church-worship.png"
+        poster="https://res.cloudinary.com/schneider-tech-inc/image/upload/v1767955020/landing-2026_ngumgw.mp4"
       >
-        <source src="/church-hero.mp4" type="video/mp4" />
+        <source src="https://res.cloudinary.com/schneider-tech-inc/video/upload/v1767955020/landing-2026_ngumgw.mp4" type="video/mp4" />
       </video>
 
       {/* Overlay */}
