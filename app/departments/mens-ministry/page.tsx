@@ -3,18 +3,23 @@ import DepartmentLayout from "@/components/department-layout"
 export default function MensMinistryPage() {
   const leaders = [
     {
-      name: "Brother Moses Boakye",
-      role: "Director",
+      name: "Mr Moses Boakye",
+      role: "President",
       image: "/placeholder.svg",
     },
     {
-      name: "Brother Daniel Osei",
-      role: "Assistant Director",
+      name: "Mr Daniel Osei",
+      role: "Vice President",
       image: "/placeholder.svg",
     },
     {
-      name: "Brother Stephen Mensah",
-      role: "Events Coordinator",
+      name: "Mr Stephen Mensah",
+      role: "Secretary",
+      image: "/placeholder.svg",
+    },
+    {
+      name: "Mr Stephen Mensah",
+      role: "Treasurer",
       image: "/placeholder.svg",
     },
   ]

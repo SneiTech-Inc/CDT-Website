@@ -195,6 +195,7 @@ export default function ContactPage() {
                   </div>
 
                   <Button
+                    disabled
                     type="submit"
                     size="lg"
                     className="w-full bg-primary hover:bg-primary/90 text-primary-foreground font-semibold"
@@ -217,11 +218,11 @@ export default function ContactPage() {
             </motion.h2>
             <motion.div variants={itemVariants} className="w-full h-96 rounded-lg overflow-hidden shadow-lg">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.155836556254!2d-1.6235532!3d6.72!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1sChrist%20Dominion%20Temple%20Kumasi!2s!5e0!3m2!1sen!2sgh!4v1610000000000"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1049.9335157131231!2d-1.699987822092764!3d6.720622047568903!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdb984145f2bd8b%3A0xe7495ffd994b5854!2sChrist%20Dominion%20Temple%20Assemblies%20of%20God%20(Ghana)!5e1!3m2!1sen!2suk!4v1768004624541!5m2!1sen!2suk"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
-                allowFullScreen={true}
+                allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               ></iframe>

@@ -3,18 +3,18 @@ import DepartmentLayout from "@/components/department-layout"
 export default function DominionSingersPage() {
   const leaders = [
     {
-      name: "Brother Michael Asante",
-      role: "Director & Worship Leader",
+      name: "Miss Sandra Ntim",
+      role: "President & Director",
       image: "/michael-worship.jpg",
     },
     {
-      name: "Sister Catherine Boateng",
-      role: "Assistant Director",
+      name: "Mr Daniel Ofori",
+      role: "Vice Director",
       image: "/placeholder.svg",
     },
     {
-      name: "Brother Joshua Mensah",
-      role: "Music Coordinator",
+      name: "Mrs Ernestina Osei",
+      role: "Praise & Worship Leader",
       image: "/placeholder.svg",
     },
   ]

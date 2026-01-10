@@ -3,18 +3,23 @@ import DepartmentLayout from "@/components/department-layout"
 export default function YouthMinistryPage() {
   const leaders = [
     {
-      name: "Pastor Samuel Boateng",
-      role: "Director",
+      name: "Mr Samuel Boateng",
+      role: "President",
       image: "/pastor-samuel.jpg",
     },
     {
-      name: "Brother Kwesi Amponsah",
-      role: "Program Coordinator",
+      name: "Mrs Agnes Amponsah",
+      role: "Vice President",
       image: "/placeholder.svg",
     },
     {
-      name: "Sister Deborah Asante",
-      role: "Discipleship Leader",
+      name: "Mr Daniel Nyarko",
+      role: "Secretary",
+      image: "/placeholder.svg",
+    },
+    {
+      name: "Mrs Sandra",
+      role: "Treasurer",
       image: "/placeholder.svg",
     },
   ]

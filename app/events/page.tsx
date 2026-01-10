@@ -85,10 +85,11 @@ export default function EventsPage() {
   ]
 
   const regularEvents = [
-    { day: "Every Sunday", time: "8:00 AM & 10:30 AM", event: "Main Worship Service", icon: "⛪" },
-    { day: "Every Wednesday", time: "6:30 PM", event: "Prayer & Bible Study", icon: "📖" },
-    { day: "Every Friday", time: "7:00 PM", event: "Youth Gathering", icon: "🎤" },
-    { day: "Every Saturday", time: "9:00 AM", event: "Children's Ministry Activity", icon: "👶" },
+    { day: "Every Sunday", time: "8:30 AM - 11:00 AM", event: "Main Worship Service", icon: "⛪" },
+    { day: "Every Monday", time: "7:00 PM - 8:30 PM", event: "Youth Gathering", icon: "🎤" },
+    { day: "Every Tuesday", time: "7:00 PM - 8:30 PM", event: "Bible Study", icon: "📖" },
+    { day: "Every Thursday", time: "7:00 PM - 8:00 PM", event: "Prayer Meeting", icon: "🙏🏼" },
+    { day: "Every Friday & Saturday", time: "6:30 PM - 8:30 PM", event: "Dominion Singers Rehearsal", icon: "🎵" },
   ]
 
   return (
