@@ -6,6 +6,8 @@ import { Button } from "@/components/ui/button"
 import { Card } from "@/components/ui/card"
 import { ArrowRight } from "lucide-react"
 import HeroVideo from "@/components/hero-video"
+import AnnualThemeSection from "@/components/annual-theme-section"
+import HeroCarousel from "@/components/hero-carousel"
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -30,8 +32,8 @@ const itemVariants = {
 export default function Home() {
   return (
     <main className="flex flex-col min-h-screen">
-      {/* Hero Section with Video */}
-      <HeroVideo />
+      {/* Hero Section with Image Carousel */}
+      <HeroCarousel />
 
       {/* Welcome Section */}
       <section className="py-16 md:py-24 bg-background">
@@ -57,6 +59,9 @@ export default function Home() {
           </motion.div>
         </div>
       </section>
+
+      {/* Annual Theme Video Section */}
+      <AnnualThemeSection />
 
       {/* Service Times */}
       <section id="services" className="py-16 md:py-24 bg-card">

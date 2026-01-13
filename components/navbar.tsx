@@ -34,11 +34,11 @@ export default function Navbar() {
             className="flex items-center gap-2 flex-shrink-0 hover:opacity-90 transition-opacity duration-200"
           >
             <Image
-              src="https://res.cloudinary.com/schneider-tech-inc/image/upload/v1767953807/CDT-logo_kifn7s.png"
+              src="/cdt-logo.png"
               alt="Christ Dominion Temple Logo"
               width={40}
               height={40}
-              className="w-12 h-12 object-contain"
+              className="w-10 h-10 object-contain"
             />
             <span className="hidden sm:inline font-bold text-foreground text-sm">Christ Dominion Temple</span>
           </Link>
@@ -71,10 +71,12 @@ export default function Navbar() {
             </Link>
 
             <div className="relative group">
-              <button className="cursor-pointer flex items-center gap-1 px-4 py-2 text-foreground hover:bg-primary/10 hover:text-primary transition-all duration-200 rounded-md">
-                Departments
-                <ChevronDown className="w-4 h-4 group-hover:rotate-180 transition-transform duration-200" />
-              </button>
+              <Link href="/departments">
+                <button className="cursor-pointer flex items-center gap-1 px-4 py-2 text-foreground hover:bg-primary/10 hover:text-primary transition-all duration-200 rounded-md">
+                  Departments
+                  <ChevronDown className="w-4 h-4 group-hover:rotate-180 transition-transform duration-200" />
+                </button>
+              </Link>
 
               {/* Dropdown Menu - appears on hover */}
               <div className="absolute left-0 mt-0 w-56 bg-background border border-border rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 pt-2">
