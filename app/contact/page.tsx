@@ -92,7 +92,7 @@ export default function ContactPage() {
                     <Phone className="w-10 h-10 text-primary" />
                   </div>
                   <h3 className="text-xl font-bold text-foreground mb-2">Phone</h3>
-                  <p className="text-muted-foreground">+233 (0) XXX XXX XXXX</p>
+                  <p className="text-muted-foreground">+233 (0) 24 234 1838</p>
                 </Card>
               </motion.div>
 

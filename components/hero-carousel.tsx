@@ -10,15 +10,23 @@ export default function HeroCarousel() {
 
     const images = [
         {
-            src: "/church-worship-and-praise.jpg",
+            src: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1768430510/WhatsApp_Image_2025-12-01_at_12.12.25_chrygc.jpg",
             alt: "Church members during worship and praise",
         },
         {
-            src: "/pastor-preaching-from-pulpit.jpg",
-            alt: "Pastor preaching",
+            src: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1768430505/WhatsApp_Image_2025-12-01_at_12.12.24_bvrosm.jpg",
+            alt: "Pastor preaching during service",
         },
         {
-            src: "/church-singers-ministering-choir.jpg",
+            src: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1768431331/WhatsApp_Image_2025-12-01_at_12.12.26_jjes9v.jpg",
+            alt: "Pastor preaching to congregation",
+        },
+        {
+            src: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1768430502/WhatsApp_Image_2026-01-09_at_10.43.20_rhdzeg.jpg",
+            alt: "Youths Day",
+        },
+        {
+            src: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1768430502/WhatsApp_Image_2026-01-09_at_10.43.20_rhdzeg.jpg",
             alt: "Singers ministering",
         },
         {
