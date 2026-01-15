@@ -103,7 +103,7 @@ export default function Home() {
                 { name: "Youth Ministry", icon: "🎯", href: "/departments/youth-ministry" },
                 { name: "Children's Ministry", icon: "👶", href: "/departments/childrens-ministry" },
                 { name: "Dominion Singers", icon: "🎤", href: "/departments/singers" },
-                { name: "Welfare Department", icon: "🤝", href: "/departments/welfare" },
+                { name: "Sunday School Ministry", icon: "📚", href: "/departments/sunday-school" },
               ].map((ministry, idx) => (
                 <motion.div key={idx} variants={itemVariants}>
                   <Link href={ministry.href}>

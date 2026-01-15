@@ -148,14 +148,14 @@ export default function Footer() {
               Ghana
             </p>
             <p>
-              Built and Powered by{" "}
+              Powered by{" "}
               <a
                 href="https://sneitech.com"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="font-semibold hover:opacity-100 transition-opacity"
               >
-                SneiTech Inc
+                SneiTech
               </a>
             </p>
           </motion.div>
