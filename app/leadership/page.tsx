@@ -30,37 +30,37 @@ export default function LeadershipPage() {
     {
       name: "Rev Williams Oduro",
       title: "Head / Senior Pastor",
-      bio: "With over 20 years of ministry experience, Pastor John leads the vision of Christ Dominion Temple with passion and biblical wisdom.",
-      image: "/placeholder.svg",
+      bio: "With over 20 years of ministry experience, Rev Williams Oduro leads the vision of Christ Dominion Temple with passion and biblical wisdom.",
+      image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1768778532/WhatsApp_Image_2026-01-11_at_15.00.09_dbzib0.jpg",
     },
     {
       name: "Deacon Nkrumah Aayapong",
       title: "Board Member",
-      bio: "Dedicated to discipleship and women's empowerment, Pastor Grace brings vibrant energy to our spiritual community.",
+      bio: "A seasoned leader in church administration, Deacon Nkrumah brings strategic oversight and a heart for service to our leadership team.",
       image: "/placeholder.svg",
     },
     {
       name: "Deacon Prince",
       title: "Secretary - Board Member",
-      bio: "Passionate about the next generation, Pastor Samuel equips young people to become kingdom builders and leaders.",
-      image: "/placeholder.svg",
+      bio: "Dedicated to effective communication and organizational excellence within our ministry.",
+      image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1768778538/WhatsApp_Image_2026-01-18_at_14.47.19_ce9h9l.jpg",
     },
     {
       name: "Deaconess Dora Owusu Ansah",
       title: "Board Member",
-      bio: "With a heart for the little ones, Pastor Ama creates a nurturing environment for spiritual development in children.",
-      image: "/placeholder.svg",
+      bio: "Committed to nurturing the spiritual growth of our congregation, Deaconess Dora brings compassion and dedication to her role.",
+      image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1768778534/WhatsApp_Image_2026-01-18_at_14.47.18_hkphmc.jpg",
     },
     {
       name: "Deaconess Sandra Ntim",
       title: "Treasurer - Board Member",
-      bio: "Committed to reaching the lost and making disciples, Evangelist David leads our community engagement efforts.",
+      bio: "Managing the financial stewardship of our ministry with integrity and transparency.",
       image: "/placeholder.svg",
     },
     {
       name: "Brother Michael Asante",
       title: "Board Member",
-      bio: "Leading worship experiences that connect hearts with God's presence, Michael brings anointed musical leadership.",
+      bio: "A faithful servant with a heart for community outreach and discipleship.",
       image: "/placeholder.svg",
     },
   ]
@@ -94,7 +94,7 @@ export default function LeadershipPage() {
               {leaders.map((leader, idx) => (
                 <motion.div key={idx} variants={itemVariants}>
                   <Card className="overflow-hidden border-2 border-border hover:shadow-lg transition-shadow h-full flex flex-col">
-                    <div className="relative w-full h-64 bg-muted overflow-hidden">
+                    <div className="relative w-full h-96 bg-muted overflow-hidden">
                       <Image src={leader.image || "/placeholder.svg"} alt={leader.name} fill className="object-cover" />
                     </div>
                     <div className="p-6 flex flex-col flex-grow">

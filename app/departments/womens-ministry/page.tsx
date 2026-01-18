@@ -10,22 +10,22 @@ export default function WomensMinistryPage() {
     {
       name: "Mrs Faustina Panka Cobbod",
       role: "President",
-      image: "/placeholder.svg",
+      image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1768778056/WhatsApp_Image_2026-01-18_at_14.38.27_1_mhk6ud.jpg",
     },
     {
       name: "Mrs Agyekumwaa Akowua",
       role: "Vice President",
-      image: "/placeholder.svg",
+      image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1768778056/WhatsApp_Image_2026-01-18_at_14.38.27_2_nluojc.jpg",
     },
     {
       name: "Mrs Vera Osei ",
       role: "Secretary",
-      image: "/placeholder.svg",
+      image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1768778064/WhatsApp_Image_2026-01-18_at_14.38.27_qwujwq.jpg",
     },
     {
       name: "Mrs Charity Aggrey",
       role: "Treasurer",
-      image: "/placeholder.svg",
+      image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1768778064/WhatsApp_Image_2026-01-18_at_14.38.25_gubway.jpg",
     },
   ]
 
