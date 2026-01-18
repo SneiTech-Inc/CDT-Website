@@ -10,6 +10,14 @@ export default function HeroCarousel() {
 
     const images = [
         {
+            src: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1768699924/WhatsApp_Image_2026-01-17_at_17.06.11_iv8845.jpg",
+            alt: "Church members during worship and praise",
+        },
+        {
+            src: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1768696643/WhatsApp_Image_2026-01-17_at_17.17.08_bkhjw2.jpg",
+            alt: "Church members during worship and praise",
+        },
+        {
             src: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1768430510/WhatsApp_Image_2025-12-01_at_12.12.25_chrygc.jpg",
             alt: "Church members during worship and praise",
         },

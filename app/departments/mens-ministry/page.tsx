@@ -3,22 +3,22 @@ import DepartmentLayout from "@/components/department-layout"
 export default function MensMinistryPage() {
   const leaders = [
     {
-      name: "Mr Moses Boakye",
+      name: "Mr Agyei Mensah",
       role: "President",
       image: "/placeholder.svg",
     },
     {
-      name: "Mr Daniel Osei",
+      name: "Mr Daniel Nkrumah",
       role: "Vice President",
       image: "/placeholder.svg",
     },
     {
-      name: "Mr Stephen Mensah",
+      name: "Bro. Clinton Kofi Agyei",
       role: "Secretary",
       image: "/placeholder.svg",
     },
     {
-      name: "Mr Stephen Mensah",
+      name: "Mr Rockson Amoah",
       role: "Treasurer",
       image: "/placeholder.svg",
     },

@@ -3,23 +3,28 @@ import DepartmentLayout from "@/components/department-layout"
 export default function YouthMinistryPage() {
   const leaders = [
     {
-      name: "Mr Samuel Boateng",
+      name: "Bro. Samuel Kwadwo Dafou",
       role: "President",
-      image: "/pastor-samuel.jpg",
+      image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1768698863/WhatsApp_Image_2026-01-11_at_16.10.29_q7ktic.jpg",
     },
     {
-      name: "Mrs Agnes Amponsah",
+      name: "Miss Agnes Amoako",
       role: "Vice President",
       image: "/placeholder.svg",
     },
     {
-      name: "Mr Daniel Nyarko",
+      name: "Bro Daniel Nyarko",
       role: "Secretary",
+      image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1768696644/WhatsApp_Image_2026-01-11_at_19.02.23_u2zrur.jpg",
+    },
+    {
+      name: "Miss Sandra Durowaa",
+      role: "Treasurer",
       image: "/placeholder.svg",
     },
     {
-      name: "Mrs Sandra",
-      role: "Treasurer",
+      name: "Miss Felicia Ayebah",
+      role: "Organizer",
       image: "/placeholder.svg",
     },
   ]

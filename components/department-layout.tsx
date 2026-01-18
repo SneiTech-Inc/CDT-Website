@@ -106,7 +106,7 @@ export default function DepartmentLayout({
               {leaders.map((leader, idx) => (
                 <motion.div key={idx} variants={itemVariants}>
                   <Card className="overflow-hidden border-2 border-border hover:shadow-lg transition-shadow">
-                    <div className="relative w-full h-48 bg-muted">
+                    <div className="relative w-full h-98 bg-muted">
                       <Image src={leader.image || "/placeholder.svg"} alt={leader.name} fill className="object-cover" />
                     </div>
                     <div className="p-6">

@@ -3,18 +3,18 @@ import DepartmentLayout from "@/components/department-layout"
 export default function WelfarePage() {
   const leaders = [
     {
-      name: "Brother Kwame Oppong",
-      role: "Director",
+      name: "Mr. Agyei Mensah",
+      role: "Head",
       image: "/placeholder.svg",
     },
     {
-      name: "Sister Abena Osei",
-      role: "Programs Coordinator",
+      name: "Mrs Nana Yaa Agyeiwaa Bawa",
+      role: "Head",
       image: "/placeholder.svg",
     },
     {
-      name: "Brother Kofi Mensah",
-      role: "Community Liaison",
+      name: "Mad. Victoria Duku",
+      role: "Head",
       image: "/placeholder.svg",
     },
   ]

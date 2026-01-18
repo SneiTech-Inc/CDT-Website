@@ -3,22 +3,27 @@ import DepartmentLayout from "@/components/department-layout"
 export default function WomensMinistryPage() {
   const leaders = [
     {
-      name: "Mrs Grace Osei",
-      role: "President",
-      image: "/pastor-grace.jpg",
+      name: "Mrs Josephine Oduro",
+      role: "Director / Advisor",
+      image: "/placeholder.svg",
     },
     {
-      name: "Mrs Abigail Mensah",
+      name: "Mrs Faustina Panka Cobbod",
+      role: "President",
+      image: "/placeholder.svg",
+    },
+    {
+      name: "Mrs Agyekumwaa Akowua",
       role: "Vice President",
       image: "/placeholder.svg",
     },
     {
-      name: "Mrs Mary Kwapong",
+      name: "Mrs Vera Osei ",
       role: "Secretary",
       image: "/placeholder.svg",
     },
     {
-      name: "Mrs Mary Kwapong",
+      name: "Mrs Charity Aggrey",
       role: "Treasurer",
       image: "/placeholder.svg",
     },

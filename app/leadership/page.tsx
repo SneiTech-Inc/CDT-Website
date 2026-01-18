@@ -31,37 +31,37 @@ export default function LeadershipPage() {
       name: "Rev Williams Oduro",
       title: "Head / Senior Pastor",
       bio: "With over 20 years of ministry experience, Pastor John leads the vision of Christ Dominion Temple with passion and biblical wisdom.",
-      image: "/pastor-john.jpg",
+      image: "/placeholder.svg",
     },
     {
       name: "Deacon Nkrumah Aayapong",
       title: "Board Member",
       bio: "Dedicated to discipleship and women's empowerment, Pastor Grace brings vibrant energy to our spiritual community.",
-      image: "/pastor-grace.jpg",
+      image: "/placeholder.svg",
     },
     {
       name: "Deacon Prince",
       title: "Secretary - Board Member",
       bio: "Passionate about the next generation, Pastor Samuel equips young people to become kingdom builders and leaders.",
-      image: "/pastor-samuel.jpg",
+      image: "/placeholder.svg",
     },
     {
       name: "Deaconess Dora Owusu Ansah",
       title: "Board Member",
       bio: "With a heart for the little ones, Pastor Ama creates a nurturing environment for spiritual development in children.",
-      image: "/pastor-ama.jpg",
+      image: "/placeholder.svg",
     },
     {
       name: "Deaconess Sandra Ntim",
       title: "Treasurer - Board Member",
       bio: "Committed to reaching the lost and making disciples, Evangelist David leads our community engagement efforts.",
-      image: "/evangelist-david.jpg",
+      image: "/placeholder.svg",
     },
     {
       name: "Brother Michael Asante",
       title: "Board Member",
       bio: "Leading worship experiences that connect hearts with God's presence, Michael brings anointed musical leadership.",
-      image: "/michael-worship.jpg",
+      image: "/placeholder.svg",
     },
   ]
 

@@ -3,18 +3,38 @@ import DepartmentLayout from "@/components/department-layout"
 export default function ChildrensMinistryPage() {
   const leaders = [
     {
-      name: "Pastor Ama Kwakye",
+      name: "Mrs Josephine Oduro",
       role: "Director",
-      image: "/pastor-ama.jpg",
-    },
-    {
-      name: "Sister Akosua Mensah",
-      role: "Assistant Director",
       image: "/placeholder.svg",
     },
     {
-      name: "Brother Yaw Owusu",
-      role: "Activities Coordinator",
+      name: "Mrs Beatrice Amponsa",
+      role: "Madam (Children’s Care)",
+      image: "/placeholder.svg",
+    },
+    {
+      name: "Miss Agnes Amoako",
+      role: "Madam (Children’s Care)",
+      image: "/placeholder.svg",
+    },
+    {
+      name: "Mrs Evelyn Nkrumah",
+      role: "Madam (Children’s Care)",
+      image: "/placeholder.svg",
+    },
+    {
+      name: "Mrs Grace Amoah",
+      role: "Madam (Children’s Care)",
+      image: "/placeholder.svg",
+    },
+    {
+      name: "Miss Asantewaa Kusi",
+      role: "Madam (Children’s Care)",
+      image: "/placeholder.svg",
+    },
+    {
+      name: "Miss Wilhermina Oduro",
+      role: "Madam (Children’s Care)",
       image: "/placeholder.svg",
     },
   ]

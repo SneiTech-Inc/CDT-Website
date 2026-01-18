@@ -3,17 +3,17 @@ import DepartmentLayout from "@/components/department-layout"
 export default function DominionUshersPage() {
   const leaders = [
     {
-      name: "Brother Richard Owusu",
+      name: "Mr. Agyei Mensah",
       role: "Chief Usher",
       image: "/placeholder.svg",
     },
     {
-      name: "Sister Vivian Mensah",
+      name: "Miss Grace Kissiwaa",
       role: "Assistant Chief Usher",
       image: "/placeholder.svg",
     },
     {
-      name: "Brother Charles Boakye",
+      name: "Mr. Bright Owusu",
       role: "Coordinator",
       image: "/placeholder.svg",
     },
