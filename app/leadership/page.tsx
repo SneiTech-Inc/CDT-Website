@@ -34,10 +34,10 @@ export default function LeadershipPage() {
       image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1768778532/WhatsApp_Image_2026-01-11_at_15.00.09_dbzib0.jpg",
     },
     {
-      name: "Deacon Nkrumah Aayapong",
+      name: "Mrs Josephine Oduro",
       title: "Board Member",
-      bio: "A seasoned leader in church administration, Deacon Nkrumah brings strategic oversight and a heart for service to our leadership team.",
-      image: "/placeholder.svg",
+      bio: "The pastor's wife, who is the mother of the church and supports the pastor, both physical and spiritual, to take care of God's flock.",
+      image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1769302063/WhatsApp_Image_2026-01-21_at_14.21.43_psd4yr.jpg",
     },
     {
       name: "Deacon Prince",
@@ -47,8 +47,8 @@ export default function LeadershipPage() {
     },
     {
       name: "Deaconess Dora Owusu Ansah",
-      title: "Board Member",
-      bio: "Committed to nurturing the spiritual growth of our congregation, Deaconess Dora brings compassion and dedication to her role.",
+      title: "Women’s Ministry Leader",
+      bio: "Committed to nurturing the spiritual growth of our women, Deaconess Dora Owusu Ansah serves with compassion, dedication, and a deep passion for empowering women in the church.",
       image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1768778534/WhatsApp_Image_2026-01-18_at_14.47.18_hkphmc.jpg",
     },
     {
@@ -58,9 +58,15 @@ export default function LeadershipPage() {
       image: "/placeholder.svg",
     },
     {
-      name: "Brother Michael Asante",
+      name: "Deaconess Mrs Elizabeth Asare (a.k.a Asoreba)",
       title: "Board Member",
-      bio: "A faithful servant with a heart for community outreach and discipleship.",
+      bio: "The encouragement, guidance, and supportive advice or role. In charge of visiting, prayer tower, and evangelism",
+      image: "/placeholder.svg",
+    },
+    {
+      name: "Deacon Nkrumah Agyapong",
+      title: "Welfare Officer",
+      bio: "A senior member of the church, Deacon Nkrumah Agyapong serves as the Welfare Officer, devoted to seeking the welfare of the pastor and family as well as supporting the needs of the church community with care and commitment.",
       image: "/placeholder.svg",
     },
   ]

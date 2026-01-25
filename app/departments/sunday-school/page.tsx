@@ -3,18 +3,18 @@ import DepartmentLayout from "@/components/department-layout"
 export default function SundaySchoolPage() {
   const leaders = [
     {
-      name: "Brother Emmanuel Asare",
-      role: "Principal",
+      name: "Miss. Sandra Ntim",
+      role: "Teacher",
       image: "/placeholder.svg",
     },
     {
-      name: "Sister Theresa Boakye",
-      role: "Curriculum Coordinator",
+      name: "Brother Daniel Nyarko",
+      role: "Teacher",
       image: "/placeholder.svg",
     },
     {
-      name: "Brother Isaac Mensah",
-      role: "Class Coordinator",
+      name: "Brother Kwame Ampofo",
+      role: "Teacher",
       image: "/placeholder.svg",
     },
   ]

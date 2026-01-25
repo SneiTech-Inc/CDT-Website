@@ -5,7 +5,7 @@ export default function WomensMinistryPage() {
     {
       name: "Mrs Josephine Oduro",
       role: "Director / Advisor",
-      image: "/placeholder.svg",
+      image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1769302063/WhatsApp_Image_2026-01-21_at_14.21.43_psd4yr.jpg",
     },
     {
       name: "Mrs Faustina Panka Cobbod",

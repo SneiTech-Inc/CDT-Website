@@ -3,19 +3,29 @@ import DepartmentLayout from "@/components/department-layout"
 export default function DomDiaPage() {
   const leaders = [
     {
-      name: "Brother Thomas Mensah",
-      role: "Director",
-      image: "/placeholder.svg",
+      name: "Brother Philip Zenore",
+      role: "IT Director / Technical Lead",
+      image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1769304438/WhatsApp_Image_2026-01-18_at_14.43.45_be7uy9.jpg",
     },
     {
-      name: "Brother Eric Boakye",
-      role: "Technical Lead",
-      image: "/placeholder.svg",
+      name: "Brother Clement",
+      role: "Sound Engineer / Technical lead",
+      image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1769304438/WhatsApp_Image_2026-01-18_at_14.46.33_ax2lwg.jpg",
     },
     {
-      name: "Sister Priscilla Asante",
-      role: "Content Manager",
-      image: "/placeholder.svg",
+      name: "Brother Patrick Obeng",
+      role: "Media Systems Operator",
+      image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1769304437/WhatsApp_Image_2026-01-18_at_14.45.28_1_iikvrq.jpg",
+    },
+    {
+      name: "Brother Kingsley",
+      role: "Media Technician",
+      image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1769304438/WhatsApp_Image_2026-01-18_at_14.45.28_jmtxp3.jpg",
+    },
+    {
+      name: "Brother Clement",
+      role: "Camera Operator",
+      image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1769304438/WhatsApp_Image_2026-01-18_at_14.43.44_1_omm1wn.jpg",
     },
   ]
 

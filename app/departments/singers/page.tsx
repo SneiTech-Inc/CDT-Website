@@ -8,7 +8,7 @@ export default function DominionSingersPage() {
       image: "/michael-worship.jpg",
     },
     {
-      name: "Mr Daniel Ofori",
+      name: "Mr Daniel Nkrumah",
       role: "Vice Director",
       image: "/placeholder.svg",
     },

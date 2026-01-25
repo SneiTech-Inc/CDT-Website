@@ -108,13 +108,44 @@ export default function AboutPage() {
               {[
                 {
                   title: "The Authority of Scripture",
-                  desc: "God's Word is the final authority for faith and practice",
+                  desc: "We believe the Bible, both Old and New Testaments, is verbally inspired by God and serves as the infallible and authoritative rule for faith and conduct.",
                 },
-                { title: "Salvation Through Christ", desc: "Jesus Christ is the only way to eternal salvation" },
-                { title: "The Holy Spirit", desc: "We believe in the baptism and gifts of the Holy Spirit" },
-                { title: "Divine Healing", desc: "Physical and emotional healing is available through God's power" },
-                { title: "Social Responsibility", desc: "We serve our community with compassion and justice" },
-                { title: "Kingdom Advancement", desc: "We are committed to advancing God's kingdom on earth" },
+                {
+                  title: "The One True God",
+                  desc: "We believe in one true God, eternally existing as Father, Son, and Holy Spirit, the Creator of heaven and earth and the Redeemer of mankind.",
+                },
+                {
+                  title: "Jesus Christ",
+                  desc: "We believe in the deity of our Lord Jesus Christ — His virgin birth, sinless life, miracles, atoning death, bodily resurrection, and exaltation at the right hand of God.",
+                },
+                {
+                  title: "Salvation Through Christ Alone",
+                  desc: "Salvation is received through repentance toward God and faith in the Lord Jesus Christ, made possible by His shed blood and saving grace.",
+                },
+                {
+                  title: "The Baptism in the Holy Spirit",
+                  desc: "All believers are entitled to and should earnestly seek the baptism in the Holy Spirit, empowering them for Christian life and service.",
+                },
+                {
+                  title: "Evidence of the Holy Spirit",
+                  desc: "The initial physical evidence of the baptism in the Holy Spirit is speaking in other tongues as the Spirit gives utterance.",
+                },
+                {
+                  title: "Sanctification & Holy Living",
+                  desc: "We believe in sanctification as an act of separation from evil and dedication unto God, empowered by the Holy Spirit to live a holy life.",
+                },
+                {
+                  title: "The Church and Its Mission",
+                  desc: "The Church is the Body of Christ, called to worship God, evangelize the world, and build believers into maturity through the power of the Holy Spirit.",
+                },
+                {
+                  title: "Divine Healing",
+                  desc: "We believe divine healing is provided in the atonement and is available to all believers through prayer and faith in Jesus Christ.",
+                },
+                {
+                  title: "The Blessed Hope",
+                  desc: "We believe in the imminent return of Jesus Christ — the resurrection of believers, the millennial reign, final judgment, and the promise of a new heaven and a new earth.",
+                },
               ].map((belief, idx) => (
                 <motion.div key={idx} variants={itemVariants}>
                   <Card className="p-6 border-l-4 border-l-primary hover:shadow-lg transition-shadow h-full">
@@ -146,10 +177,13 @@ export default function AboutPage() {
               allows us to minister effectively within our local context while maintaining alignment with our
               denomination's vision and values.
             </motion.p>
-            <motion.p variants={itemVariants} className="text-lg opacity-95 leading-relaxed">
+            <motion.p variants={itemVariants} className="text-lg opacity-95 mb-4 leading-relaxed">
               Our autonomy empowers us to be responsive to the specific needs of Kumasi and its surrounding communities,
               while our connection to the Assemblies of God ensures doctrinal soundness, accountability, and access to
               resources that help us fulfill the Great Commission.
+            </motion.p>
+            <motion.p variants={itemVariants} className="text-lg opacity-95 leading-relaxed">
+              Christ Dominion Temple adheres to the Statement of Fundamental Truths of the Assemblies of God.
             </motion.p>
           </motion.div>
         </div>

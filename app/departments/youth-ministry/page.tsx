@@ -20,7 +20,7 @@ export default function YouthMinistryPage() {
     {
       name: "Miss Sandra Durowaa",
       role: "Treasurer",
-      image: "/placeholder.svg",
+      image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1769303099/WhatsApp_Image_2026-01-19_at_14.25.37_q6qpx1.jpg",
     },
     {
       name: "Miss Felicia Ayebah",

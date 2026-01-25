@@ -10,12 +10,12 @@ export default function ChildrensMinistryPage() {
     {
       name: "Mrs Beatrice Amponsa",
       role: "Madam (Children’s Care)",
-      image: "/placeholder.svg",
+      image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1769303594/WhatsApp_Image_2026-01-18_at_14.40.45_vqafdf.jpg",
     },
     {
       name: "Miss Agnes Amoako",
       role: "Madam (Children’s Care)",
-      image: "/placeholder.svg",
+      image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1769303594/WhatsApp_Image_2026-01-18_at_14.40.40_ej1f7j.jpg",
     },
     {
       name: "Mrs Evelyn Nkrumah",
@@ -36,6 +36,11 @@ export default function ChildrensMinistryPage() {
       name: "Miss Wilhermina Oduro",
       role: "Madam (Children’s Care)",
       image: "/placeholder.svg",
+    },
+    {
+      name: "Miss Priscilla",
+      role: "Madam (Children’s Care)",
+      image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1769303593/WhatsApp_Image_2026-01-18_at_14.40.40_1_vgqe3b.jpg",
     },
   ]
 

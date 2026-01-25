@@ -15,12 +15,12 @@ export default function MensMinistryPage() {
     {
       name: "Bro. Clinton Kofi Agyei",
       role: "Secretary",
-      image: "/placeholder.svg",
+      image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1769303593/WhatsApp_Image_2026-01-20_at_00.30.34_1_pt5wgk.jpg",
     },
     {
       name: "Mr Rockson Amoah",
       role: "Treasurer",
-      image: "/placeholder.svg",
+      image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1769303593/WhatsApp_Image_2026-01-20_at_00.30.34_yrp9iv.jpg",
     },
   ]
 

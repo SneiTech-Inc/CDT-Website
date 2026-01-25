@@ -15,7 +15,7 @@ export default function WelfarePage() {
     {
       name: "Mad. Victoria Duku",
       role: "Head",
-      image: "/placeholder.svg",
+      image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1769303593/WhatsApp_Image_2026-01-18_at_15.40.36_s24lup.jpg",
     },
   ]
 
