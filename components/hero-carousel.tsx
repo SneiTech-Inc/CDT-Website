@@ -26,20 +26,20 @@ export default function HeroCarousel() {
             alt: "Pastor preaching during service",
         },
         {
+            src: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1769308295/WhatsApp_Image_2025-12-01_at_12.12.29_1_mc5ewz.jpg",
+            alt: "Pastor preaching during service",
+        },
+        {
+            src: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1769308295/WhatsApp_Image_2025-12-01_at_12.12.28_2_z5wxf3.jpg",
+            alt: "Pastor preaching to congregation",
+        },
+        {
             src: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1768431331/WhatsApp_Image_2025-12-01_at_12.12.26_jjes9v.jpg",
             alt: "Pastor preaching to congregation",
         },
         {
             src: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1768430502/WhatsApp_Image_2026-01-09_at_10.43.20_rhdzeg.jpg",
             alt: "Youths Day",
-        },
-        {
-            src: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1768430502/WhatsApp_Image_2026-01-09_at_10.43.20_rhdzeg.jpg",
-            alt: "Singers ministering",
-        },
-        {
-            src: "/keyboardist-playing-worship-music.jpg",
-            alt: "Keyboardist instrumental worship",
         },
     ]
 

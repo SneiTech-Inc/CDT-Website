@@ -3,19 +3,19 @@ import DepartmentLayout from "@/components/department-layout"
 export default function DominionDancersPage() {
   const leaders = [
     {
-      name: "Sister Joyce Mensah",
+      name: "Mrs. Vera Osei",
       role: "Director",
+      image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1768778064/WhatsApp_Image_2026-01-18_at_14.38.27_qwujwq.jpg",
+    },
+    {
+      name: "Sister Charity",
+      role: "Assistant Directors",
       image: "/placeholder.svg",
     },
     {
-      name: "Sister Miriam Agyeman",
-      role: "Assistant Director",
-      image: "/placeholder.svg",
-    },
-    {
-      name: "Sister Stella Boateng",
+      name: "Sister Elizabeth Agyapong",
       role: "Choreographer",
-      image: "/placeholder.svg",
+      image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1769307278/WhatsApp_Image_2026-01-11_at_14.34.12_svqr3l.jpg",
     },
   ]
 

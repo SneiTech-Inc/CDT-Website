@@ -86,6 +86,7 @@ export default function EventsPage() {
 
   const regularEvents = [
     { day: "Every Sunday", time: "8:30 AM - 11:00 AM", event: "Main Worship Service", icon: "⛪" },
+    { day: "Every Monday", time: "5:30 PM - 6:30 PM", event: "Women's Gathering", icon: "🎤" },
     { day: "Every Monday", time: "7:00 PM - 8:30 PM", event: "Youth Gathering", icon: "🎤" },
     { day: "Every Tuesday", time: "7:00 PM - 8:30 PM", event: "Bible Study", icon: "📖" },
     { day: "Every Thursday", time: "7:00 PM - 8:00 PM", event: "Prayer Meeting", icon: "🙏🏼" },
