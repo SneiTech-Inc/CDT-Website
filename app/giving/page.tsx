@@ -96,20 +96,20 @@ export default function GivingPage() {
             <div className="space-y-4">
               <div>
                 <label className="text-sm font-semibold text-muted-foreground block mb-2">Bank Name</label>
-                <p className="text-lg text-foreground font-medium">Stanbic Bank Ghana</p>
+                <p className="text-lg text-foreground font-medium">United Bank of Africa (UBA)</p>
               </div>
 
               <div>
                 <label className="text-sm font-semibold text-muted-foreground block mb-2">Account Name</label>
-                <p className="text-lg text-foreground font-medium">Christ Dominion Temple</p>
+                <p className="text-lg text-foreground font-medium">Assemblies of God, Christ Dominion Temple</p>
               </div>
 
               <div>
                 <label className="text-sm font-semibold text-muted-foreground block mb-2">Account Number</label>
                 <div className="flex items-center gap-3 bg-slate-50 dark:bg-slate-800 rounded-lg p-4">
-                  <p className="text-lg font-mono font-bold text-primary">0012345678</p>
+                  <p className="text-lg font-mono font-bold text-primary">02212640602550</p>
                   <button
-                    onClick={() => copyToClipboard("0012345678", "account")}
+                    onClick={() => copyToClipboard("02212640602550", "account")}
                     className="ml-auto p-2 hover:bg-primary/10 rounded-lg transition-colors"
                   >
                     {copiedAccount ? (
@@ -138,7 +138,7 @@ export default function GivingPage() {
             <div className="space-y-4">
               <div>
                 <label className="text-sm font-semibold text-muted-foreground block mb-2">Mobile Network</label>
-                <p className="text-lg text-foreground font-medium">MTN Mobile Money & Vodafone Cash</p>
+                <p className="text-lg text-foreground font-medium">MTN Mobile Money</p>
               </div>
 
               <div>
@@ -149,9 +149,9 @@ export default function GivingPage() {
               <div>
                 <label className="text-sm font-semibold text-muted-foreground block mb-2">Mobile Money Number</label>
                 <div className="flex items-center gap-3 bg-slate-50 dark:bg-slate-800 rounded-lg p-4">
-                  <p className="text-lg font-mono font-bold text-primary">+233 50 XXX XXXX</p>
+                  <p className="text-lg font-mono font-bold text-primary">+233 59 655 6871</p>
                   <button
-                    onClick={() => copyToClipboard("+233 50 XXX XXXX", "momo")}
+                    onClick={() => copyToClipboard("+233 59 655 6871", "momo")}
                     className="ml-auto p-2 hover:bg-primary/10 rounded-lg transition-colors"
                   >
                     {copiedMomo ? (
