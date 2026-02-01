@@ -18,6 +18,16 @@ export default function ChildrensMinistryPage() {
       image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1769303594/WhatsApp_Image_2026-01-18_at_14.40.40_ej1f7j.jpg",
     },
     {
+      name: "Miss Wilhermina Oduro",
+      role: "Madam (Children’s Care)",
+      image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1769984160/WhatsApp_Image_2026-02-01_at_22.09.25_fbzvqx.jpg",
+    },
+    {
+      name: "Miss Priscilla",
+      role: "Madam (Children’s Care)",
+      image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1769303593/WhatsApp_Image_2026-01-18_at_14.40.40_1_vgqe3b.jpg",
+    },
+    {
       name: "Mrs Evelyn Nkrumah",
       role: "Madam (Children’s Care)",
       image: "/placeholder.svg",
@@ -31,16 +41,6 @@ export default function ChildrensMinistryPage() {
       name: "Miss Asantewaa Kusi",
       role: "Madam (Children’s Care)",
       image: "/placeholder.svg",
-    },
-    {
-      name: "Miss Wilhermina Oduro",
-      role: "Madam (Children’s Care)",
-      image: "/placeholder.svg",
-    },
-    {
-      name: "Miss Priscilla",
-      role: "Madam (Children’s Care)",
-      image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1769303593/WhatsApp_Image_2026-01-18_at_14.40.40_1_vgqe3b.jpg",
     },
   ]
 

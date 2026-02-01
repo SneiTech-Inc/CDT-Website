@@ -40,7 +40,7 @@ export default function LeadershipPage() {
       image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1769302063/WhatsApp_Image_2026-01-21_at_14.21.43_psd4yr.jpg",
     },
     {
-      name: "Deacon Prince",
+      name: "Deacon Prince Mensah",
       title: "Secretary - Board Member",
       bio: "Dedicated to effective communication and organizational excellence within our ministry.",
       image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1769907451/GEOR0470.jpg_rmdbam.jpg",
