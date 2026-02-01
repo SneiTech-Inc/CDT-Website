@@ -49,7 +49,7 @@ export default function LeadershipPage() {
       name: "Deaconess Dora Owusu Ansah",
       title: "Women’s Ministry Leader",
       bio: "Committed to nurturing the spiritual growth of our women, Deaconess Dora Owusu Ansah serves with compassion, dedication, and a deep passion for empowering women in the church.",
-      image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1769907452/WhatsApp_Image_2026-02-01_at_00.42.49_1_b9ogpk.jpg",
+      image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1769984848/WhatsApp_Image_2026-02-01_at_00.42.49_2_agzwgy.jpg",
     },
     {
       name: "Deaconess Sandra Ntim",
