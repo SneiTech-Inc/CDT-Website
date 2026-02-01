@@ -3,29 +3,49 @@ import DepartmentLayout from "@/components/department-layout"
 export default function DomDiaPage() {
   const leaders = [
     {
-      name: "Brother Philip Zenore",
-      role: "IT Director / Technical Lead",
+      name: "Mr Philip Zenore",
+      role: "Media Director/Supervisor",
       image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1769304438/WhatsApp_Image_2026-01-18_at_14.43.45_be7uy9.jpg",
     },
     {
-      name: "Brother Clement",
+      name: "Mr Clement Yeboah",
       role: "Sound Engineer / Technical lead",
       image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1769304438/WhatsApp_Image_2026-01-18_at_14.46.33_ax2lwg.jpg",
     },
     {
-      name: "Brother Patrick Obeng",
-      role: "Media Systems Operator",
+      name: "Mr Patrick Obeng",
+      role: "Live Stream Operator",
       image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1769304437/WhatsApp_Image_2026-01-18_at_14.45.28_1_iikvrq.jpg",
     },
     {
-      name: "Brother Kingsley",
-      role: "Media Technician",
+      name: "Mr Kingsley Aggrey",
+      role: "Live Stream Operator",
       image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1769304438/WhatsApp_Image_2026-01-18_at_14.45.28_jmtxp3.jpg",
     },
     {
-      name: "Brother Clement",
+      name: "Mr Clement Opoku",
       role: "Camera Operator",
       image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1769304438/WhatsApp_Image_2026-01-18_at_14.43.44_1_omm1wn.jpg",
+    },
+    {
+      name: "Mr Nathaniel Kugoriamo",
+      role: "Live Stream Operator",
+      image: "/placeholder.svg",
+    },
+    {
+      name: "Mrs Lordina Opoku",
+      role: "Live Stream Operator",
+      image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1769304438/WhatsApp_Image_2026-01-18_at_14.43.44_rylqst.jpg",
+    },
+    {
+      name: "Mr Albert Antwi",
+      role: "Sound Assistant",
+      image: "/placeholder.svg",
+    },
+    {
+      name: "Mr Patrick Bekoe",
+      role: "Sound Assistant",
+      image: "/placeholder.svg",
     },
   ]
 

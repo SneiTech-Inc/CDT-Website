@@ -5,7 +5,7 @@ export default function DominionSingersPage() {
     {
       name: "Miss Sandra Ntim",
       role: "President & Director",
-      image: "/michael-worship.jpg",
+      image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1769907450/WhatsApp_Image_2026-01-26_at_06.15.20_jzw0mg.jpg",
     },
     {
       name: "Mr Daniel Nkrumah",

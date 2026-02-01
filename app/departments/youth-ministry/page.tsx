@@ -10,7 +10,7 @@ export default function YouthMinistryPage() {
     {
       name: "Miss Agnes Amoako",
       role: "Vice President",
-      image: "/placeholder.svg",
+      image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1769303594/WhatsApp_Image_2026-01-18_at_14.40.40_ej1f7j.jpg",
     },
     {
       name: "Bro Daniel Nyarko",

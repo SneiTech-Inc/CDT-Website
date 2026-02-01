@@ -5,17 +5,17 @@ export default function SundaySchoolPage() {
     {
       name: "Miss. Sandra Ntim",
       role: "Teacher",
-      image: "/placeholder.svg",
+      image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1769907450/WhatsApp_Image_2026-01-26_at_06.15.20_jzw0mg.jpg",
     },
     {
-      name: "Brother Daniel Nyarko",
+      name: "Mr Daniel Nyarko",
       role: "Teacher",
-      image: "/placeholder.svg",
+      image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1768696644/WhatsApp_Image_2026-01-11_at_19.02.23_u2zrur.jpg",
     },
     {
-      name: "Brother Kwame Ampofo",
+      name: "Mr Kwame Ampofo",
       role: "Teacher",
-      image: "/placeholder.svg",
+      image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1769907451/WhatsApp_Image_2026-01-26_at_06.15.21_kzuip1.jpg",
     },
   ]
 

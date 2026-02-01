@@ -3,17 +3,17 @@ import DepartmentLayout from "@/components/department-layout"
 export default function WelfarePage() {
   const leaders = [
     {
-      name: "Mr. Agyei Mensah",
+      name: "Mr Agyei Mensah",
       role: "Head",
       image: "/placeholder.svg",
     },
     {
-      name: "Mrs Nana Yaa Agyeiwaa Bawa",
+      name: "Mrs Nana Yaa Domfeh",
       role: "Head",
       image: "/placeholder.svg",
     },
     {
-      name: "Mad. Victoria Duku",
+      name: "Mrs Victoria Duku",
       role: "Head",
       image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1769303593/WhatsApp_Image_2026-01-18_at_15.40.36_s24lup.jpg",
     },

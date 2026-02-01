@@ -10,7 +10,7 @@ export default function DominionDancersPage() {
     {
       name: "Sister Charity",
       role: "Assistant Directors",
-      image: "/placeholder.svg",
+      image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1769909093/WhatsApp_Image_2026-01-26_at_06.15.19_zulokc.jpg",
     },
     {
       name: "Sister Elizabeth Agyapong",

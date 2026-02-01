@@ -10,12 +10,12 @@ export default function DominionUshersPage() {
     {
       name: "Miss Grace Kissiwaa",
       role: "Assistant Chief Usher",
-      image: "/placeholder.svg",
+      image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1769907460/WhatsApp_Image_2026-01-26_at_06.15.20_2_chiydz.jpg",
     },
     {
       name: "Mr. Bright Owusu",
       role: "Coordinator",
-      image: "/placeholder.svg",
+      image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1769908673/WhatsApp_Image_2026-01-26_at_06.15.20_1_uojoxa.jpg",
     },
   ]
 
