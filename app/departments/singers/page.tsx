@@ -15,7 +15,7 @@ export default function DominionSingersPage() {
     {
       name: "Mrs Ernestina Osei",
       role: "Praise & Worship Leader",
-      image: "/placeholder.svg",
+      image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1769983110/WhatsApp_Image_2026-02-01_at_21.56.58_kbnnmd.jpg",
     },
   ]
 

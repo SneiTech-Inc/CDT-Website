@@ -10,7 +10,7 @@ export default function WelfarePage() {
     {
       name: "Mrs Nana Yaa Domfeh",
       role: "Head",
-      image: "/placeholder.svg",
+      image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1769982648/WhatsApp_Image_2026-02-01_at_09.02.58_knwxkz.jpg",
     },
     {
       name: "Mrs Victoria Duku",
