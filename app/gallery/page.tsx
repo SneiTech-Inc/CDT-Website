@@ -72,7 +72,7 @@ export default function GalleryPage() {
             id: 6,
             src: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1770526285/WhatsApp_Image_2026-01-09_at_10.43.41_mk9kc5.jpg",
             alt: "Youth's on Jersey",
-            category: "Men",
+            category: "Youth",
             title: "Youth Gathering",
         },
         {
