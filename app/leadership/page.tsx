@@ -67,7 +67,7 @@ export default function LeadershipPage() {
       name: "Deacon Nkrumah Agyapong",
       title: "Welfare Officer",
       bio: "A senior member of the church, Deacon Nkrumah Agyapong serves as the Welfare Officer, devoted to seeking the welfare of the pastor and family as well as supporting the needs of the church community with care and commitment.",
-      image: "/placeholder.svg",
+      image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1770526249/WhatsApp_Image_2026-02-07_at_20.47.41_vheucj.jpg",
     },
   ]
 

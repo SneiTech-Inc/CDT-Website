@@ -8,6 +8,7 @@ import { ArrowRight } from "lucide-react"
 import HeroVideo from "@/components/hero-video"
 import AnnualThemeSection from "@/components/annual-theme-section"
 import HeroCarousel from "@/components/hero-carousel"
+import GalleryPreview from "@/components/gallery-preview"
 
 const containerVariants = {
   hidden: { opacity: 0 },
@@ -98,6 +99,7 @@ export default function Home() {
             </motion.h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
               {[
+                { name: "Church Leadership", icon: "👨‍💼👩‍💼", href: "/leadership" },
                 { name: "Women's Ministry", icon: "👩", href: "/departments/womens-ministry" },
                 { name: "Men's Ministry", icon: "👨", href: "/departments/mens-ministry" },
                 { name: "Youth Ministry", icon: "🎯", href: "/departments/youth-ministry" },
@@ -170,6 +172,9 @@ export default function Home() {
           </motion.div>
         </div>
       </section>
+
+      {/* Gallery Preview Section */}
+      <GalleryPreview />
 
       {/* CTA Section */}
       <section className="py-16 md:py-24 bg-primary text-primary-foreground">

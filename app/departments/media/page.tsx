@@ -30,7 +30,7 @@ export default function DomDiaPage() {
     {
       name: "Mr Nathaniel Kugoriamo",
       role: "Live Stream Operator",
-      image: "/placeholder.svg",
+      image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1770526256/WhatsApp_Image_2026-02-01_at_23.24.20_ypid0w.jpg",
     },
     {
       name: "Mrs Lordina Opoku",
