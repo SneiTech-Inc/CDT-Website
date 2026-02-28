@@ -170,13 +170,13 @@ export default function GivingPage() {
       {/* Online Payment Methods */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
         <motion.div variants={containerVariants} initial="hidden" whileInView="visible" viewport={{ once: true }}>
-          <motion.h2 variants={itemVariants} className="text-3xl font-bold text-center mb-12 text-foreground">
+          {/* <motion.h2 variants={itemVariants} className="text-3xl font-bold text-center mb-12 text-foreground">
             Give Online
-          </motion.h2>
+          </motion.h2> */}
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-3xl mx-auto">
             {/* Paystack Payment */}
-            <motion.div
+            {/* <motion.div
               variants={itemVariants}
               className="bg-white dark:bg-slate-900 rounded-xl shadow-lg p-8 border border-primary/10 hover:shadow-xl transition-shadow duration-300"
             >
@@ -202,14 +202,15 @@ export default function GivingPage() {
 
               <Button
                 onClick={handlePaystackPayment}
+                disabled={true}
                 className="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-3 rounded-lg transition-colors duration-200 cursor-pointer"
               >
                 Give via Paystack
               </Button>
-            </motion.div>
+            </motion.div> */}
 
             {/* Hubtel Payment */}
-            <motion.div
+            {/* <motion.div
               variants={itemVariants}
               className="bg-white dark:bg-slate-900 rounded-xl shadow-lg p-8 border border-primary/10 hover:shadow-xl transition-shadow duration-300"
             >
@@ -235,11 +236,12 @@ export default function GivingPage() {
 
               <Button
                 onClick={handleHubtelPayment}
+                disabled={true}
                 className="w-full bg-orange-600 hover:bg-orange-700 text-white font-semibold py-3 rounded-lg transition-colors duration-200 cursor-pointer"
               >
                 Give via Hubtel
               </Button>
-            </motion.div>
+            </motion.div> */}
           </div>
         </motion.div>
       </section>

@@ -3,7 +3,7 @@ import DepartmentLayout from "@/components/department-layout"
 export default function YouthMinistryPage() {
   const leaders = [
     {
-      name: "Bro. Samuel Kwadwo Dafou",
+      name: "Mr. Samuel Kwadwo Dafou",
       role: "President",
       image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1768698863/WhatsApp_Image_2026-01-11_at_16.10.29_q7ktic.jpg",
     },
@@ -13,7 +13,7 @@ export default function YouthMinistryPage() {
       image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1769303594/WhatsApp_Image_2026-01-18_at_14.40.40_ej1f7j.jpg",
     },
     {
-      name: "Bro Daniel Nyarko",
+      name: "Mr Daniel Nyarko",
       role: "Secretary",
       image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1768696644/WhatsApp_Image_2026-01-11_at_19.02.23_u2zrur.jpg",
     },

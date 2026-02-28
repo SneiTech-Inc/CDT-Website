@@ -29,25 +29,25 @@ const itemVariants = {
 export default function EventsPage() {
   const upcomingEvents = [
     {
-      date: "January 15, 2026",
-      time: "9:00 AM - 5:00 PM",
-      title: "Youth Empowerment Summit",
+      date: "March 01, 2026",
+      time: "9:00 AM - 11:30 AM",
+      title: "Pastor's Appreciation Service",
       description:
-        "A transformative day for young people featuring inspirational speakers, workshops on leadership, faith, and career development.",
-      location: "Christ Dominion Temple Main Hall",
+        "Join us as we honor our spiritual leader for his dedication and service. A special worship service followed by a fellowship luncheon.",
+      location: "Christ Dominion Temple Auditorium",
       icon: "🎯",
     },
     {
-      date: "January 22, 2026",
+      date: "March 15, 2026",
       time: "7:00 AM - 10:00 AM",
       title: "Women's Prayer Breakfast",
       description:
         "Fellowship, intercession, and encouragement for our women. Guest speaker will share on faith and resilience.",
-      location: "CDT Conference Hall",
+      location: "CDT Auditorium",
       icon: "🙏",
     },
     {
-      date: "February 1, 2026",
+      date: "March 22, 2026",
       time: "10:00 AM - 4:00 PM",
       title: "Community Outreach & Welfare Program",
       description:
@@ -56,7 +56,7 @@ export default function EventsPage() {
       icon: "🤝",
     },
     {
-      date: "February 7, 2026",
+      date: "April 05, 2026",
       time: "6:00 PM",
       title: "Men's Fellowship Dinner",
       description:
@@ -65,7 +65,7 @@ export default function EventsPage() {
       icon: "👨",
     },
     {
-      date: "February 14, 2026",
+      date: "April 12, 2026",
       time: "5:00 PM - 8:00 PM",
       title: "Couple's Night of Celebration",
       description:
@@ -74,11 +74,11 @@ export default function EventsPage() {
       icon: "💕",
     },
     {
-      date: "February 28 - March 1, 2026",
-      time: "Weekend Retreat",
-      title: "Annual Church Retreat",
+      date: "November 28 - December 02, 2026",
+      time: "6:30PM - 9:00 PM",
+      title: "Annual Church Harvest",
       description:
-        "Three days of intensive worship, prayer, and spiritual renewal. Focus on deeper faith, community building, and discovering purpose.",
+        "7 days of powerful worship, prophetic declarations, and testimonies. Ending with a grand harvest celebration on the final day.",
       location: "Kumasi Retreat Center",
       icon: "🏕️",
     },

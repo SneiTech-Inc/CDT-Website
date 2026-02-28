@@ -138,16 +138,16 @@ export default function Home() {
             <div className="space-y-4 mb-8">
               {[
                 {
-                  date: "Jan 05, 2026 to Jan 18, 2026",
-                  title: "Fasting & Prayer Week",
-                  desc: "A week dedicated to spiritual renewal and seeking God's face",
+                  date: "Mar 01, 2026",
+                  title: "Pastor's Appreciation Service",
+                  desc: "Honoring our spiritual leader for his dedication and service",
                 },
                 {
-                  date: "Jan 22, 2026",
+                  date: "Mar 15, 2026",
                   title: "Women's Prayer Breakfast",
                   desc: "Fellowship and intercession for our women",
                 },
-                { date: "Feb 1, 2026", title: "Community Outreach", desc: "Serving our neighborhood with love" },
+                { date: "Mar 22, 2026", title: "Community Outreach", desc: "Serving our neighborhood with love" },
               ].map((event, idx) => (
                 <motion.div key={idx} variants={itemVariants}>
                   <Card className="p-6 border-l-4 border-l-primary hover:shadow-lg transition-shadow">

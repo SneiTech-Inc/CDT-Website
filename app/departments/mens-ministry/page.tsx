@@ -13,7 +13,7 @@ export default function MensMinistryPage() {
       image: "/placeholder.svg",
     },
     {
-      name: "Bro. Clinton Kofi Agyei",
+      name: "Mr. Clinton Kofi Agyei",
       role: "Secretary",
       image: "https://res.cloudinary.com/schneider-tech-inc/image/upload/v1769303593/WhatsApp_Image_2026-01-20_at_00.30.34_1_pt5wgk.jpg",
     },
