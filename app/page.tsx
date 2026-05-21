@@ -119,7 +119,7 @@ export default function Home() {
             </div>
             <div className="mt-8 text-center">
               <Link href="/departments">
-                <Button variant="outline" className="gap-2 bg-transparent">
+                <Button variant="outline" className="gap-2 bg-transparent cursor-pointer">
                   Explore All Departments <ArrowRight className="w-4 h-4" />
                 </Button>
               </Link>
@@ -132,39 +132,56 @@ export default function Home() {
       <section className="py-16 md:py-24 bg-card">
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <motion.div variants={containerVariants} initial="hidden" whileInView="visible" viewport={{ once: true }}>
-            <motion.h2 variants={itemVariants} className="text-3xl md:text-4xl font-bold text-center mb-12">
+            <motion.h2 variants={itemVariants} className="text-3xl md:text-4xl font-bold text-center mb-4">
               Upcoming Events
             </motion.h2>
-            <div className="space-y-4 mb-8">
+            <motion.p variants={itemVariants} className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
+              Join us for these exciting gatherings and special events planned for 2026. Experience worship, fellowship, and spiritual growth.
+            </motion.p>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
               {[
                 {
-                  date: "Mar 01, 2026",
-                  title: "Pastor's Appreciation Service",
-                  desc: "Honoring our spiritual leader for his dedication and service",
+                  date: "June 01-07, 2026",
+                  title: "Mid Year Fasting & Prayers",
+                  desc: "A focused week of fasting and prayer to seek God's guidance, breakthrough, and blessings for the second half of the year.",
+                  icon: "📣",
                 },
                 {
-                  date: "Mar 15, 2026",
-                  title: "Women's Prayer Breakfast",
-                  desc: "Fellowship and intercession for our women",
+                  date: "June 10-14, 2026",
+                  title: "Men's Ministry Day (MM Day)",
+                  desc: "Fellowship and spiritual growth for the men of the church. Leadership development, accountability, and mentorship.",
+                  icon: "👨",
                 },
-                { date: "Mar 22, 2026", title: "Community Outreach", desc: "Serving our neighborhood with love" },
+                {
+                  date: "July 01-05, 2026",
+                  title: "Mid Year Harvest",
+                  desc: "A time of thanksgiving and celebration for God's provision and blessings in the first half of the year. Special offerings, testimonies, and worship.",
+                  icon: "🌾",
+                },
+                {
+                  date: "August 04-10, 2026",
+                  title: "Children's Ministry Week",
+                  desc: "A fun and spiritually enriching week for the children of the church. Bible stories, games, crafts, and worship designed to nurture their faith.",
+                  icon: "👧👦",
+                },
               ].map((event, idx) => (
                 <motion.div key={idx} variants={itemVariants}>
-                  <Card className="p-6 border-l-4 border-l-primary hover:shadow-lg transition-shadow">
-                    <div className="flex justify-between items-start gap-4">
-                      <div>
-                        <p className="text-sm text-primary font-semibold mb-1">{event.date}</p>
-                        <h3 className="text-xl font-bold text-foreground">{event.title}</h3>
-                        <p className="text-muted-foreground mt-2">{event.desc}</p>
+                  <Card className="p-6 border-l-4 border-l-primary hover:shadow-lg transition-shadow h-full flex flex-col">
+                    <div className="flex gap-3 mb-3">
+                      <span className="text-2xl">{event.icon}</span>
+                      <div className="flex-1">
+                        <p className="text-sm text-primary font-semibold">{event.date}</p>
+                        <h3 className="text-lg font-bold text-foreground">{event.title}</h3>
                       </div>
                     </div>
+                    <p className="text-muted-foreground text-sm flex-grow">{event.desc}</p>
                   </Card>
                 </motion.div>
               ))}
             </div>
             <div className="text-center">
               <Link href="/events">
-                <Button className="bg-primary hover:bg-primary/90 gap-2">
+                <Button className="bg-primary hover:bg-primary/90 gap-2 cursor-pointer">
                   View All Events <ArrowRight className="w-4 h-4" />
                 </Button>
               </Link>
@@ -192,7 +209,7 @@ export default function Home() {
                 <Button
                   size="lg"
                   variant="secondary"
-                  className="bg-primary-foreground text-primary hover:bg-primary-foreground/90"
+                  className="bg-primary-foreground text-primary hover:bg-primary-foreground/90 cursor-pointer"
                 >
                   Get in Touch
                 </Button>
@@ -201,7 +218,7 @@ export default function Home() {
                 <Button
                   size="lg"
                   variant="outline"
-                  className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10 bg-transparent"
+                  className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10 bg-transparent cursor-pointer"
                 >
                   Learn More
                 </Button>

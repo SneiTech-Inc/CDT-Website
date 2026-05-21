@@ -38,10 +38,10 @@ export default function Footer() {
                 impact.
               </p>
               <div className="flex gap-3">
-                <a href="#" className="hover:opacity-75 transition hover:scale-110 duration-200">
+                <a href="https://web.facebook.com/CDTaog/" target="_blank" rel="noopener noreferrer" className="hover:opacity-75 transition hover:scale-110 duration-200">
                   <Facebook className="w-5 h-5" />
                 </a>
-                <a href="#" className="hover:opacity-75 transition hover:scale-110 duration-200">
+                <a href="https://www.instagram.com/cdt.ag/" target="_blank" rel="noopener noreferrer" className="hover:opacity-75 transition hover:scale-110 duration-200">
                   <Instagram className="w-5 h-5" />
                 </a>
                 <a href="#" className="hover:opacity-75 transition hover:scale-110 duration-200">
